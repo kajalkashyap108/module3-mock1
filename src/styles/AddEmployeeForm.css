@@ -1,0 +1,66 @@
+/* AddEmployeeForm.css */
+.add-employee-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .add-employee-form h2 {
+    text-align: center;
+    color: #4e73df;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .add-employee-form input,
+  .add-employee-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+  }
+  
+  .add-employee-form input:focus,
+  .add-employee-form select:focus {
+    border-color: #4e73df;
+    outline: none;
+  }
+  
+  .add-employee-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4e73df;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-employee-form button:hover {
+    background-color: #2e59d9;
+  }
+  
+  .add-employee-form button:focus {
+    outline: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 500px) {
+    .add-employee-form {
+      padding: 15px;
+    }
+  
+    .add-employee-form h2 {
+      font-size: 1.25rem;
+    }
+  }
+  

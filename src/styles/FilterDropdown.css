@@ -1,0 +1,52 @@
+/* FilterDropdown.css */
+.filter-dropdown {
+    width: 250px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .filter-dropdown select {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    color: #555;
+    cursor: pointer;
+    transition: border 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .filter-dropdown select:focus {
+    border-color: #4e73df;
+    outline: none;
+    background-color: #f9f9f9;
+  }
+  
+  .filter-dropdown option {
+    font-size: 1rem;
+    padding: 10px;
+    color: #333;
+  }
+  
+  .filter-dropdown select:hover {
+    border-color: #4e73df;
+    background-color: #f1f1f1;
+  }
+  
+  .filter-dropdown select:focus {
+    background-color: #e8f0fe;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .filter-dropdown {
+      width: 100%;
+      margin: 15px 0;
+    }
+  
+    .filter-dropdown select {
+      font-size: 0.9rem;
+    }
+  }
+  
